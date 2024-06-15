@@ -2,6 +2,8 @@
 WrithMessage();
 
 WrithDevelop();
+
+WrithClient();
 static void WrithMessage()
 {
     Console.WriteLine("hello world");
@@ -11,4 +13,8 @@ static void WrithMessage()
 static void WrithDevelop()
 {
     Console.WriteLine("say hlloe develop");
+}
+static void WrithClient()
+{
+    Console.WriteLine("say hello client");
 }
